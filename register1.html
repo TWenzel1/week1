@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Register Page</title>
+<link rel="stylesheet" href="project1.css"/> 
+
+</head>
+
+<body>
+        <br>
+        <ul class="classUL">
+                <li class="classLI"><a class="classLI_A ex1" href="indexPurchase1.html">Products</a></li>
+                <li class="classLI"><a class="classLI_A ex1" href="displayProducts1.html">Products List</a></li>
+                <li class="classLI"><a class="classLI_A ex1" href="register1.html">Register User</a></li>
+                <li class="classLI"><a class="classLI_A ex1" href="userDisplay1.html">User Information</a></li>
+                <li class="classLI"><a class="classLI_A ex1" href="login1.html">Login</a></li>
+        </ul><br><Br>
+
+    <form action="displayProducts1.html">
+        <div class="divAquamarine">
+            <label>FirstName:</label><br>
+            <input type="text" maxlength="25" required /><br>
+
+            <label>LastName:</label><br>
+            <input type="text" maxlength="25" required /><br>
+            
+            <label>Address</label><br>
+            <input type="text"  required/><br>
+                
+            <label>City:</label><br>
+            <input type="text" maxlength= "20" required/><br>
+            
+            <label>State:</label><br>
+            <input type="text" maxlength="2" size="2" required><br>
+        
+            <label>ZipCode:</label><br>
+            <input type="number"  min= "10000" max="99999" maxlength= "5 char" required /><br>
+        
+            <label>Email:</label><br>
+            <input type="email" required /><br>
+            
+            <label>DOB: </label><br>
+            <input type="date" required /><br>
+             <br>   
+
+        <div>
+            <label>Marital Status:</label>
+            <input type="radio" name="MaritalStatus" checked value="Married">Married</input>
+            <input type="radio" name="MaritalStatus" value="Single">Single</input>
+            <input type="radio" name="MaritalStatus" value="Widowed">Widowed</input>
+            <input type="radio" name="MaritalStatus" value="Seperated">Seperated</input>
+        </div><br>
+        
+        <div>
+            <label>Profession:</label>
+            <input type="radio" name="Profession" checked value="Student">Student</input>
+            <input type="radio" name="Profession" value="Full-Time Employment">Full-Time Employment</input>
+            <input type="radio" name="Profession" value="Professional">Professional</input>
+            <input type="radio" name="Profession" value="Self-Employed"> Self Self-Employed</input>
+        </div><br>
+
+        <div>
+                <label>Owns:</label>
+                <input type="checkbox" name="mobile"  value="Mobile">Mobile</input>
+                <input type="checkbox" name="mobile"  value="Tablet">Tablet</input>
+                <input type="checkbox" name="mobile" value="Desktop">Desktop</input>
+                <input type="checkbox" name="mobile"  value="Laptop"> Laptop</input>
+        </div><br>
+        
+        
+            <label>Username:</label><br>
+            <input type="text" minlength="5" maxlength="25" required /><br>
+        
+        
+            <label>Password:</label><br>
+            <input type="text" minlength="5" maxlength="13" required/><br>
+        <br>
+
+                <div class="submitreset">
+                <input type="submit" value="submit">
+                <input type="reset" value="Reset">
+                </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
